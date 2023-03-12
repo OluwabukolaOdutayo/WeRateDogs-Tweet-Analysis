@@ -1,15 +1,18 @@
-# Sample Superstore Data Exploration
+# Data Wrangling Of WeRateDogs twitter tweets
 ## by Oluwabukola Odutayo
 
 
 ## Dataset
 
-> The superstore dataset is a dataset about a company's sales and profits. It is has information about sales, profit and quantity of products ordered from the comapny. The dataset has 9,994 rows and 21 columns.  The dataset also contains features like Segment, Category, Product Name, State, and many others.
+> The dataset is derived by scraping tweets from the WeRateDogs twitter account and also together with Image pridiction dataset which shows the predictions done by a model on the dog types. The data was scraped using the tweepy package. The goal of this project is to identify quality and tidyness issue in the scraped data. the dataset consist of columns like prediction, confidence_percentage, breed_predicted, retweet_count, favorite_count etc.
 
 ## Summary of Findings
 
-> In the exploration, i found out that technology has the highest profit across all the regions, Discount the company place on productsdoes not influence the amount of quantity ordered and New york city has the highest number of customers.
+> During the wrangling process, i found was able to find at least eight(8) quality issues and two(2) tidyness issues.  for example some columns were dropped during the wrangling phase due to ots of Na values and also change of columns data type was carried out.
 
 ## Key Insights for Presentation
 
-> For the presentation, I focused on the variable that generted more profit. Technology has the highest profit across all the regions, so i advice the company stock more of technoligical products. Discount does not influence the amount of quantity ordered. i suggest the comapany try to increase the discount on higher quantity orders. States like Carlifornia and New york should be stocked with more products due to high amount of customers which will generate more sales. New york city has the highest number of customers among all the cities and should be stocked with more products
+> the following insights was generated from the scraped data:
+- Which Phone source is the most use source?  Twitter for iphone is the most used phone source in tweeting
+- Which dog type is the most common? Pupper is the most common dog type
+- Which Dogs has the highest predictions? Golden Retriever has the highest number of predictions
